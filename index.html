@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,17 +7,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lato:wght@400;700&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
     <title>bioinnovex</title>
   </head>
-  <body class="bg-[rgb(235,242,250)]">
-    <nav class="flex justify-between bg-[rgb(242,244,247)] p-4 pr-10 pl-10">
-      <h1 class="text-2xl font-bold">
-        BIO INNOVEX
-      </h1>
-      <button class="font-medium text-gray-700 transition-transform duration-300 ease-in-out hover:text-gray-900 cursor-pointer">
-        Contact
-      </button>
-    </nav>
+  <body class="bg-[rgb(242,244,247)]">
+    <!-- TOP BAR -->
+    <header class="sticky top-0 z-50">
+      <nav class="flex justify-between bg-[rgb(242,244,247)] p-4 pr-10 pl-10 shadow-md">
+        <h1 class="text-[rgb(25,94,234)] text-2xl font-bold">
+          BIO INNOVEX
+        </h1>
+        <div class="flex gap-10 items-center">
+            <a href="#Services"
+            class="font-medium text-gray-700 transition-transform duration-300 ease-in-out hover:text-gray-900 cursor-pointer">
+            Our Services
+          </a>
+          <button class="font-medium text-gray-700 transition-transform duration-300 ease-in-out hover:text-gray-900 cursor-pointer">
+            Contact
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- TOP IMAGE -->
     <div class="flex">
-      <div class="relative w-full h-100">
+      <div class="relative w-full h-100 shadow-md">
         <img src="assets/images/top_image.png" alt="img" class="w-full h-full object-cover"/>
         <div class="absolute p-5 top-0 left-0 mt-10 ml-10 bg-[rgba(100,224,152,0.7)] rounded-xl space-y-5">
             <h2 class="text-[rgb(25,94,234)] leading-tight tracking-wide text-5xl font-medium">
@@ -29,6 +40,8 @@
         </div>
       </div>
     </div>
+
+    <!-- OPEN NEW MARKETS -->
     <div class="p-10 grid grid-cols-2 gap-10">
 
       <h2 class="text-4xl text-[rgb(25,94,234)] font-bold">
@@ -47,6 +60,7 @@
         By accelerating time-to-revenue and leveraging our plug-and-play model, companies can secure scalable and sustainable growth.
       </p>
 
+      <!-- WHY THIS MATTERS -->
       <div class="flex flex-col space-y-8">
 
         <h2 class="text-4xl text-[rgb(25,94,234)] font-bold text-center">
@@ -104,10 +118,12 @@
       </div>
 
     </div>
+
+    <!-- OUR SERVICES -->
     <div class="flex mb-10 pr-10 pl-10 space-x-10">
       <div class="flex-1 grid grid-cols-2 text-[rgb(25,94,234)]">
 
-        <div class="col-span-2 space-y-2">
+        <div id="Services" class="col-span-2 space-y-2">
           <p class="text-4xl font-bold">
             Our Services
           </p>
@@ -155,9 +171,10 @@
         </div>
 
       </div>
-      <img src="assets/images/together.png" class="rounded-sm shadow-lg shadow-gray-300"/>
+      <img src="assets/images/together.png" class="rounded-sm shadow-lg shadow-gray-300 object-cover"/>
     </div>
 
+    <!-- FROM OPPORTUNITY TO REVENUE -->
     <div class="p-5 flex bg-linear-to-r from-[rgb(76,194,125)] to-[rgb(102,199,143)] justify-center text-gray-50 gap-10">
       <h2 class="text-5xl font-semibold tracking-wide whitespace-nowrap">
         FROM OPPORTUNITY TO REVENUE
