@@ -4,6 +4,7 @@ import NetworkCoverage from './components/NetworkCoverage'
 import NewMarkets from './components/NewMarkets'
 import Opportunity from './components/Opportunity'
 import OurServices from './components/OurServices'
+import ValueCreation from './components/ValueCreation'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <OurServices />
       <Opportunity />
       <NetworkCoverage />
+      <ValueCreation />
     </main>
   )
 }
