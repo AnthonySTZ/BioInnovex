@@ -6,7 +6,7 @@ import Timeline from "./Timeline";
 export default function Opportunity() {
     return (
         <div className="mx-16 flex justify-between gap-16">
-            <div className="flex flex-col gap-8">
+            <div className="flex flex-col gap-16">
                 <h1 className="text-6xl font-bold text-blue-600">FROM OPPORTUNITY TO REVENUE</h1>
                 <p className="text-blue-600 text-3xl">
                     Our approach ensures a seamless transition from strategy to
