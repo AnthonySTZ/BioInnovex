@@ -1,4 +1,5 @@
 import Contacts from './components/Contacts'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import MainImage from './components/MainImage'
 import NetworkCoverage from './components/NetworkCoverage'
@@ -18,6 +19,7 @@ function App() {
       <NetworkCoverage />
       <ValueCreation />
       <Contacts />
+      <Footer />
     </main>
   )
 }
