@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import MainImage from './components/MainImage'
+import NetworkCoverage from './components/NetworkCoverage'
 import NewMarkets from './components/NewMarkets'
 import Opportunity from './components/Opportunity'
 import OurServices from './components/OurServices'
@@ -12,6 +13,7 @@ function App() {
       <NewMarkets />
       <OurServices />
       <Opportunity />
+      <NetworkCoverage />
     </main>
   )
 }
