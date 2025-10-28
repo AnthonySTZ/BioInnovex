@@ -1,3 +1,4 @@
+import Contacts from './components/Contacts'
 import Header from './components/Header'
 import MainImage from './components/MainImage'
 import NetworkCoverage from './components/NetworkCoverage'
@@ -16,6 +17,7 @@ function App() {
       <Opportunity />
       <NetworkCoverage />
       <ValueCreation />
+      <Contacts />
     </main>
   )
 }
