@@ -1,5 +1,7 @@
 import { timeline } from "../data/timeline"
+import { timelineInfos } from "../data/timelineInfos"
 import TimelineItem from "./TimelineItem"
+import InfosItem from "./InfosItem"
 
 export default function Timeline() {
     return (
@@ -7,9 +9,17 @@ export default function Timeline() {
             {
                 timeline.map((text, index) => (
                     <TimelineItem
+                    key={index}
                     text={text}
                     isFirst={index == 0}
                     isLast={index == timeline.length - 1} />
+                ))
+            }
+            {
+                timelineInfos.map((infos, index) => (
+                    <InfosItem
+                        key={index}
+                        infos={infos}/>
                 ))
             }
         </div>
