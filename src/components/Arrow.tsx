@@ -1,15 +1,13 @@
 type ArrowProps = {
-    height: number,
-    width: number,
-    arrowSize: number,
+    height: string,
+    width: string,
+    arrowSize: string,
 }
 
 export default function Arrow({height, width, arrowSize} : ArrowProps) {
     return (
-        <div className={`
-        flex flex-col items-center
-        h-${height}
-        `}>
+        <div className="flex flex-col items-center"
+        style={{ minHeight: `${height}rem` }}>
             <div className={`
             bg-blue-800
             w-${arrowSize} h-${arrowSize}

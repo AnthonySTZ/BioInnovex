@@ -8,21 +8,32 @@ export default function Opportunity() {
         <div className="mx-16 flex justify-between gap-16">
             <div className="flex flex-col gap-8">
                 <h1 className="text-6xl font-bold text-blue-600">FROM OPPORTUNITY TO REVENUE</h1>
-                <p className="text-blue-600 text-3xl font-semibold">
+                <p className="text-blue-600 text-3xl">
                     Our approach ensures a seamless transition from strategy to
                     execution, delivering measurable results on the ground.
                 </p>
                 <Timeline />
+                <h3 className="text-blue-600 text-4xl font-semibold">
+                    AVERAGE TIME-TO-MARKET FOR<br/>
+                    RARE DISEASES TREATMENTS<br/>
+                    6–9 MONTHS
+                </h3>
+                <p className="text-blue-600 text-3xl">
+                    We provide a turnkey solution from feasibility study to launch, with
+                    minimal internal resource allocation from our clients. Thanks to this
+                    flexible “modular” model, companies can stop at any stage and keep
+                    the deliverables, or entrust us with full end-to-end development.
+                </p>
             </div>
 
 
 
             {/* IMAGE */}
-            <div className="pt-40 bg-cover bg-center"
+            <div className="flex pt-60 bg-cover bg-center"
             style={{backgroundImage: `url(${building})`}}>
 
-                <div className="flex flex-col bg-white/70 p-8 px-32 gap-4 justify-center">
-                    <h2 className="text-6xl font-semibold text-blue-600 mb-8 text-center">OUR MODEL IS:</h2>
+                <div className="flex flex-col w-full bg-white/70 p-8 px-16 gap-8 justify-center">
+                    <h2 className="text-6xl font-semibold text-blue-600 mb-4 text-cente whitespace-nowrap">OUR MODEL IS:</h2>
                     {
                         models.map((model, index) => (
                             <ModelItem 
