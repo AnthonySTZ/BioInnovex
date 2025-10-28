@@ -1,21 +1,23 @@
 export default function NewMarketsText() {
     return (
-        <div className="col-span-3 flex flex-col gap-8 justify-center text-4xl text-blue-600">
-            <p>
-                Our insights are built on real data, field
-                intelligence, and tangible execution.
-                We anticipate market shifts, identify new
-                revenue levers, and transform analysis
-                into concrete market growth.
-            </p>
-            <p>
-                Through our proactive, hands-on
-                approach, BIOINNOVEX delivers
-                measurable impact — securing
-                partnerships, accelerating access, and
-                generating additional value across every
-                stage of expansion.
-            </p>
+        <div className="col-span-3 flex flex-col gap-8 justify-evenly text-4xl text-blue-600">
+            <div className="space-y-8">
+                <p>
+                    Our insights are built on real data, field
+                    intelligence, and tangible execution.
+                    We anticipate market shifts, identify new
+                    revenue levers, and transform analysis
+                    into concrete market growth.
+                </p>
+                <p>
+                    Through our proactive, hands-on
+                    approach, BIOINNOVEX delivers
+                    measurable impact — securing
+                    partnerships, accelerating access, and
+                    generating additional value across every
+                    stage of expansion.
+                </p>
+            </div>
             <div className="flex p-8 items-center justify-center">
                 <button 
                 className="transition-all duration-200 ease-in-out

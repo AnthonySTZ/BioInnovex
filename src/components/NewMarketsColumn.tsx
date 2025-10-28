@@ -15,18 +15,18 @@ export default function NewMarketsColumn() {
                 </div>
             </div>
 
-            <div className="flex flex-col bg-blue-700/40 p-4 gap-8">
+            <div className="flex flex-col bg-blue-700/40 p-8 gap-8">
                 <div className="space-y-2">
-                    <p className="text-4xl text-blue-700 font-bold">YOU HAVE STRONG PORTEFOLIO</p>
-                    <p className="text-white text-2xl text-center">Efficient processes, and a highperforming team.</p>
+                    <p className="text-5xl text-blue-600 font-semibold">YOU HAVE STRONG PORTEFOLIO</p>
+                    <p className="text-white text-2xl">Efficient processes, and a highperforming team.</p>
                 </div>
                 <div className="space-y-2">
-                    <p className="text-4xl text-blue-700 font-bold">YOU ARE FOCUSED ON YOUR CORE MARKETS</p>
-                    <p className="text-white text-2xl text-center">Where you are structured to succeed.</p>
+                    <p className="text-5xl text-blue-600 font-semibold">YOU ARE FOCUSED ON YOUR CORE MARKETS</p>
+                    <p className="text-white text-2xl">Where you are structured to succeed.</p>
                 </div>
                 <div className="space-y-2">
-                    <p className="text-4xl text-blue-700 font-bold">YOU KEEP FULL CONTROL RESOURCES</p>
-                    <p className="text-white text-2xl text-center">Expand internationally without the need for significant internal investment.</p>
+                    <p className="text-5xl text-blue-600 font-semibold">YOU KEEP FULL CONTROL RESOURCES</p>
+                    <p className="text-white text-2xl">Expand internationally without the need for significant internal investment.</p>
                 </div>
             </div>
         </div>

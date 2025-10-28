@@ -9,8 +9,8 @@ export default function InfosItem({infos} : InfosItemProps) {
         <div className="flex flex-col text-blue-700 text-xl items-center pt-4 gap-4 p-2">
             <Arrow
                 height={"4"}
-                width={"0.5"}
-                arrowSize={"4"}
+                width={"0.25"}
+                arrowSize={"1"}
                 />
             <div className="flex flex-col justify-evenly bg-[rgb(215,223,255)] p-4 gap-2 h-full w-full">
                 {
