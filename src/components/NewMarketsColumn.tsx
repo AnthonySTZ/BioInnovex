@@ -2,7 +2,7 @@ import cells from "../assets/images/cells.png"
 
 export default function NewMarketsColumn() {
     return (
-        <div className="flex flex-col max-w-1/3">
+        <div className="col-span-2 flex flex-col">
             <div className="grid grid-rows-2 bg-cover bg-center"
             style={{ backgroundImage: `url(${cells})` }}>
                 <div></div>
@@ -15,7 +15,7 @@ export default function NewMarketsColumn() {
                 </div>
             </div>
 
-            <div className="flex flex-col bg-blue-900/40 p-4 gap-8">
+            <div className="flex flex-col bg-blue-700/40 p-4 gap-8">
                 <div className="space-y-2">
                     <p className="text-4xl text-blue-700 font-bold">YOU HAVE STRONG PORTEFOLIO</p>
                     <p className="text-white text-2xl text-center">Efficient processes, and a highperforming team.</p>
