@@ -43,9 +43,9 @@ export default function Contacts() {
                 <div />
 
                 <div />
-                <p className={descriptionCSS}>Irina.raskina@bioinnovex</p>
+                <a href="mailto:Irina.raskina@bioinnovex" className="text-xl underline">Irina.raskina@bioinnovex</a>
                 <div />
-                <p className={descriptionCSS}>Leonid.parshenkov@bioinnovex.com</p>
+                <a href="mailto:Leonid.parshenkov@bioinnovex.com" className="text-xl underline">Leonid.parshenkov@bioinnovex.com</a>
                 <div />
             </div>
         </div>
