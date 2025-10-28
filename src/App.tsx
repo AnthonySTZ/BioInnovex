@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import MainImage from './components/MainImage'
 import NewMarkets from './components/NewMarkets'
+import Opportunity from './components/Opportunity'
 import OurServices from './components/OurServices'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <MainImage />
       <NewMarkets />
       <OurServices />
+      <Opportunity />
     </main>
   )
 }
