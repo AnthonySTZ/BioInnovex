@@ -2,7 +2,7 @@ const descriptionCSS = "text-xl"
 
 export default function Contacts() {
     return (
-        <div className="mx-16 space-y-16">
+        <div id="contacts" className="mx-16 space-y-16">
             <div className="bg-blue-600 text-white p-20">
                 <h1 className="text-6xl font-semibold leading-tight">
                     EXECUTIVE TEAM<br/>

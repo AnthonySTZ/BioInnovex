@@ -6,9 +6,9 @@ export default function Header() {
             <img src={logo} className="h-12 w-auto"/>
             <div className="flex justify-evenly items-center gap-8 text-blue-500 font-semibold">
                 <a href="/">About us</a>
-                <a href="/">Our services</a>
-                <a href="/">References</a>
-                <a href="/">Contacts</a>
+                <a href="#our-services">Our services</a>
+                <a href="#references">References</a>
+                <a href="#contacts">Contacts</a>
             </div>
         </div>
     )
