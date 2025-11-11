@@ -3,7 +3,7 @@ import world from "../assets/images/world.png";
 
 export default function NetworkCoverage() {
     return (
-        <div className="bg-cover bg-center flex flex-col p-8 mx-4 lg:mx-16 gap-24 sm:gap-48 lg:gap-64 items-start"
+        <div className="bg-cover bg-center flex flex-col p-8 mx-4 lg:mx-8 gap-24 sm:gap-48 lg:gap-64 items-start"
         style={{backgroundImage: `url(${world})`}}>
 
             <h1 className="text-4xl lg:text-6xl font-bold text-white">NETWORK & COVERAGE</h1>

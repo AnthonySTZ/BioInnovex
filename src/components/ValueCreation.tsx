@@ -4,7 +4,7 @@ import CreationItem from "./CreationItem";
 
 export default function ValueCreation() {
     return (
-        <div id="references" className="mx-4 lg:mx-16 space-y-8">
+        <div id="references" className="mx-4 lg:mx-8 space-y-8">
             <div className="bg-center bg-cover"
             style={{backgroundImage: `url(${glass})`}}>
                 <div className="w-full h-full p-8 lg:pt-24 bg-white/50 text-blue-600 flex flex-col gap-4">

@@ -11,7 +11,7 @@ export default function CreationItem({creation} : CreationItemProps) {
         style={{backgroundImage: `url(${molecule})`}}>
             <div className="bg-blue-600/70 space-y-2 px-8 text-center min-w-md">
                 <h2 className="text-2xl font-semibold">{creation.title}</h2>
-                <div className="mx-16 border-y h-1 border-white"></div>
+                <div className="mx-8 border-y h-1 border-white"></div>
                 <p className="text-xl font-semibold">{creation.subtitle}</p>
             </div>
             <div className="flex flex-col h-full">

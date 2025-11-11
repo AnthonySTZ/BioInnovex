@@ -1,8 +1,12 @@
+import ContactImage from "./ContactImage";
+import irina from "../assets/images/irina.png";
+import leonid from "../assets/images/leonid.png";
+
 const descriptionCSS = "text-xl"
 
 export default function Contacts() {
     return (
-        <div id="contacts" className="mx-4 lg:mx-16 space-y-16">
+        <div id="contacts" className="mx-4 lg:mx-8 space-y-16">
             <div className="bg-blue-600 text-white p-8 lg:p-20">
                 <h1 className="text-4xl lg:text-5xl font-semibold leading-tight">
                     EXECUTIVE TEAM<br/>
@@ -12,13 +16,19 @@ export default function Contacts() {
             </div>
 
             <div className="grid-cols-5 text-blue-600 gap-4 hidden lg:grid">
-                <div />
+                <div/>
                 <div>
+                    <ContactImage 
+                        image={irina}
+                    />
                     <h1 className="text-5xl font-semibold whitespace-nowrap">IRINA RASKINA</h1>
                     <p className="text-xl">PARIS</p>
                 </div>
                 <div />
                 <div>
+                    <ContactImage 
+                        image={leonid}
+                    />
                     <h1 className="text-5xl font-semibold whitespace-nowrap">LEONID PARSHENKOV</h1>
                     <p className="text-xl">BASEL</p>
                 </div>
@@ -51,6 +61,9 @@ export default function Contacts() {
 
             <div className="flex lg:hidden flex-col gap-8 text-blue-600">
                 <div className="space-y-4">
+                    <ContactImage 
+                        image={irina}
+                    />
                     <div>
                         <h1 className="text-4xl font-semibold whitespace-nowrap">IRINA RASKINA</h1>
                         <p className="text-xl">PARIS</p>
@@ -62,6 +75,9 @@ export default function Contacts() {
                 </div>
 
                 <div className="space-y-4">
+                    <ContactImage 
+                        image={leonid}
+                    />
                     <div>
                         <h1 className="text-4xl font-semibold whitespace-nowrap">LEONID PARSHENKOV</h1>
                         <p className="text-xl">BASEL</p>
