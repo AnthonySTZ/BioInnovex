@@ -4,18 +4,19 @@ import CreationItem from "./CreationItem";
 
 export default function ValueCreation() {
     return (
-        <div id="references" className="mx-16 space-y-8">
+        <div id="references" className="mx-4 lg:mx-16 space-y-8">
             <div className="bg-center bg-cover"
             style={{backgroundImage: `url(${glass})`}}>
-                <div className="w-full h-full p-8 pt-24 bg-white/50 text-blue-600 flex flex-col gap-4">
-                    <h1 className="text-6xl font-bold">
+                <div className="w-full h-full p-8 lg:pt-24 bg-white/50 text-blue-600 flex flex-col gap-4">
+                    <h1 className="text-4xl lg:text-5xl font-bold">
                         OVER 20 YEARS<br/>
                         OF VALUE CREATION
                     </h1>
                     <p className="text-4xl">references upon request</p>
                 </div>
             </div>
-            <div className="grid grid-cols-4 gap-8">
+            <div className="overflow-x-auto scroll-smooth snap-x snap-mandatory">
+                <div className="flex gap-6">
                 {
                     creations.map((creation, index) => (
                         <CreationItem
@@ -23,7 +24,17 @@ export default function ValueCreation() {
                             creation={creation}/>
                     ))
                 }
+                </div>
             </div>
+            {/* <div className="grid grid-cols-4 gap-8">
+                {
+                    creations.map((creation, index) => (
+                        <CreationItem
+                            key={index}
+                            creation={creation}/>
+                    ))
+                }
+            </div> */}
         </div>
     )
 }
