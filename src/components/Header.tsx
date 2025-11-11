@@ -21,12 +21,15 @@ export default function Header() {
                     onClick={() => setMenu(!menu)} 
                     className="hover:cursor-pointer"><img className="h-8 w-auto" src={menu_img}/></button>
                 {menu && 
-                    <div className="absolute right-0 mt-2 z-10 bg-white rounded-lg shadow-lg">
-                        <ul className="p-2 px-4 space-y-2 text-nowrap text-blue-500 font-semibold">
-                            <li><a href="#about-us">About us</a></li>
-                            <li><a href="#our-services">Our services</a></li>
-                            <li><a href="#references">References</a></li>
-                            <li><a href="#contacts">Contacts</a></li>
+                    <div className="absolute right-0 mt-2 z-10 bg-white rounded-md shadow-xl border border-gray-300">
+                        <ul className="py-2 text-xl space-y-2 text-nowrap text-blue-500 font-semibold">
+                            <li className="px-4"><a href="#about-us">About us</a></li>
+                            <hr></hr>
+                            <li className="px-4"><a href="#our-services">Our services</a></li>
+                            <hr></hr>
+                            <li className="px-4"><a href="#references">References</a></li>
+                            <hr></hr>
+                            <li className="px-4"><a href="#contacts">Contacts</a></li>
                         </ul>
                     </div>
                 }                
