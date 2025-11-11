@@ -29,10 +29,10 @@ export default function Opportunity() {
 
 
             {/* IMAGE */}
-            <div className="pt-60 bg-cover bg-center hidden lg:flex"
+            <div className="pt-60 bg-cover bg-center hidden xl:flex"
             style={{backgroundImage: `url(${building})`}}>
 
-                <div className="flex flex-col w-0 lg:w-full bg-white/70 p-8 px-16 gap-8 justify-center">
+                <div className="flex flex-col w-full bg-white/70 p-8 px-16 gap-8 justify-center">
                     <h2 className="text-6xl font-semibold text-blue-600 mb-4 text-cente whitespace-nowrap">OUR MODEL IS:</h2>
                     {
                         models.map((model, index) => (

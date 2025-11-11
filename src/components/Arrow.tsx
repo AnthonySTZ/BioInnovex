@@ -15,7 +15,7 @@ export default function Arrow({height, width, arrowSize} : ArrowProps) {
                 minWidth: `${arrowSize}rem`
             }}/>
             
-            <div className="h-full bg-blue-800"
+            <div className="grow bg-blue-800"
             style={{
                 minWidth: `${width}rem`
             }}/>
