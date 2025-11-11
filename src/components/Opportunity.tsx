@@ -5,10 +5,10 @@ import Timeline from "./Timeline";
 
 export default function Opportunity() {
     return (
-        <div className="mx-16 flex justify-between gap-16">
+        <div className="mx-4 lg:mx-16 flex justify-between gap-16">
             <div className="flex flex-col gap-16">
-                <h1 className="text-6xl font-bold text-blue-600">FROM OPPORTUNITY TO REVENUE</h1>
-                <p className="text-blue-600 text-3xl">
+                <h1 className="text-4xl lg:text-6xl font-bold text-blue-600">FROM OPPORTUNITY TO REVENUE</h1>
+                <p className="text-blue-600 text-2xl md:text-3xl">
                     Our approach ensures a seamless transition from strategy to
                     execution, delivering measurable results on the ground.
                 </p>
@@ -29,10 +29,10 @@ export default function Opportunity() {
 
 
             {/* IMAGE */}
-            <div className="flex pt-60 bg-cover bg-center"
+            <div className="pt-60 bg-cover bg-center hidden lg:flex"
             style={{backgroundImage: `url(${building})`}}>
 
-                <div className="flex flex-col w-full bg-white/70 p-8 px-16 gap-8 justify-center">
+                <div className="flex flex-col w-0 lg:w-full bg-white/70 p-8 px-16 gap-8 justify-center">
                     <h2 className="text-6xl font-semibold text-blue-600 mb-4 text-cente whitespace-nowrap">OUR MODEL IS:</h2>
                     {
                         models.map((model, index) => (

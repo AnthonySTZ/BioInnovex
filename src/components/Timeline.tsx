@@ -5,8 +5,8 @@ import InfosItem from "./InfosItem"
 
 export default function Timeline() {
     return (
-        <div className="grid grid-cols-3 text-white text-3xl">
-            {
+        <div className="flex flex-col md:grid md:grid-cols-3 text-white text-3xl">
+            { 
                 timeline.map((text, index) => (
                     <TimelineItem
                     key={index}
