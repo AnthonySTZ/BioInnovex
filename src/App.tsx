@@ -10,7 +10,7 @@ import ValueCreation from './components/ValueCreation'
 
 function App() {
   return (
-    <main className='bg-gray-50 flex flex-col gap-16 overflow-y-scroll'>
+    <main className='bg-gray-50 flex flex-col gap-4 lg:gap-16 overflow-y-scroll'>
       <Header />
       <MainImage />
       <NewMarkets />
