@@ -15,7 +15,7 @@ export default function Opportunity() {
                 <div className="hidden lg:block">
                 <Timeline />
                 </div>
-                <h3 className="text-blue-600 text-3xl md:text-4xl font-semibold">
+                <h3 className="text-blue-600 text-2xl md:text-4xl font-semibold">
                     AVERAGE TIME-TO-MARKET FOR<br/>
                     RARE DISEASES TREATMENTS<br/>
                     6–9 MONTHS

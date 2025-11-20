@@ -9,7 +9,7 @@ export default function Header() {
     return (
         <div className="flex justify-between items-center p-6 bg-white shadow">
             <a href="/"><img src={logo} className="h-8 w-auto"/></a>
-            <div className="text-lg flex justify-evenly items-center text-nowrap gap-8 text-blue-500 font-semibold w-0 invisible md:visible md:w-auto">
+            <div className="hidden md:flex text-lg justify-evenly items-center text-nowrap gap-8 text-blue-500 font-semibold md:w-auto">
                 <a href="#about-us">About us</a>
                 <a href="#our-services">Our services</a>
                 <a href="#references">References</a>
