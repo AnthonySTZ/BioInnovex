@@ -15,7 +15,7 @@ function App() {
       <Header />
       </div>
       <MainImage />
-      <div className="pt-[100vh]">
+      <div className="pt-[100vh] md:pt-0">
         <NewMarkets />
         <OurServices />
         <Opportunity />
