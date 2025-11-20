@@ -18,18 +18,8 @@ export default function MainImage() {
 
     return (
         <div className="fixed bg-cover bg-center w-full h-screen">
-            <div className="transition-all duration-150 ease-in-out hidden md:flex bg-cover bg-center py-8 md:py-16 md:mt-24 mx-4 lg:mx-8"
-            style= { { backgroundImage: `url(${purpleStrings})` } }>
-                <div className="bg-blue-600/80 p-12 py-8 lg:py-24 rounded-r-lg">
-                    <h1 className="text-3xl lg:text-5xl text-white font-semibold leading-tight">
-                        YOU’VE BUILT VALUE<br/>
-                        WE HELP YOU UNLOCK<br/>
-                        ITS FULL POTENTIAL
-                    </h1>
-                </div>
-            </div>
-            <div className="fixed inset-0 flex md:hidden items-center justify-center pointer-events-none z-30" style={{ opacity }}>
-                <h1 className="relative text-5xl font-semibold text-center leading-tight text-blue-700">
+            <div className="fixed inset-0 flex items-center justify-center pointer-events-none z-30" style={{ opacity }}>
+                <h1 className="relative text-5xl lg:text-6xl font-semibold text-center leading-tight text-blue-700">
                     YOU’VE BUILT VALUE<br/>
                     WE HELP YOU UNLOCK<br/>
                     ITS <span className="text-[rgb(60,199,111)] font-bold">FULL POTENTIAL</span>
