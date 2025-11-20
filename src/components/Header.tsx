@@ -7,7 +7,7 @@ export default function Header() {
     const [menu, setMenu] = useState(false);
 
     return (
-        <div className="flex justify-between items-center p-4 md:p-6 bg-white shadow">
+        <div className="flex justify-between items-center p-4 md:p-6">
             <a href="/"><img src={logo} className="h-8 w-auto"/></a>
             <div className="hidden md:flex text-lg justify-evenly items-center text-nowrap gap-8 text-blue-500 font-semibold md:w-auto">
                 <a href="#about-us">About us</a>

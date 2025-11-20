@@ -1,6 +1,6 @@
 export default function NewMarketsText() {
     return (
-        <div className="md:col-span-3 flex flex-col gap-8 justify-evenly text-xl lg:text-4xl text-blue-600">
+        <div className="md:col-span-3 flex flex-col gap-8 justify-evenly text-xl mx-4 lg-mx-0 lg:text-4xl text-blue-600">
             <div className="space-y-8">
                 <p>
                     Our insights are built on real data, field
