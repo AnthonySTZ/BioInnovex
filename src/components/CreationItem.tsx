@@ -8,7 +8,7 @@ type CreationItemProps = {
 export default function CreationItem({ creation }: CreationItemProps) {
   return (
     <div
-      className="flex flex-col bg-center bg-cover text-white gap-4 sm:gap-6 rounded-lg overflow-hidden shadow-md shrink-0 w-[80vw] sm:w-60 md:w-72 lg:w-80"
+      className="flex flex-col bg-center bg-cover text-white gap-4 sm:gap-6 rounded-lg overflow-hidden shadow-md shrink-0 w-[90vw] sm:w-60 md:w-72 lg:w-80"
       style={{ backgroundImage: `url(${molecule})` }}
     >
       <div className="bg-blue-600/70 space-y-2 px-4 sm:px-6 py-4 text-center">
