@@ -21,6 +21,6 @@ export const creations = [
         title: "NEUROLOGY",
         subtitle: "SPECIALITY CARE",
         description: "Swess pharmaceutical company, turnover over over $B1",
-        text: "GO to Market strategy, selection of the local distributors, mode of local commercial operations across small countries"
+        text: "Go to Market strategy, selection of the local distributors, mode of local commercial operations across small countries"
     },
 ]

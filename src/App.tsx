@@ -16,7 +16,7 @@ function App() {
 
     useEffect(() => {
         const handleScroll = () => {
-        const fadePoint = 300;
+        const fadePoint = 400;
         const newOpacity = Math.max(1 - window.scrollY / fadePoint, 0);
         setOpacity(newOpacity);
         };
@@ -26,14 +26,14 @@ function App() {
     }, []);
 
   return (
-    <main className='flex flex-col gap-4 lg:gap-8 overflow-y-scroll no-scrollbar bg-cover bg-center' style={{ backgroundImage: `url(${purpleStringsBlur})` }}>
+    <main className='flex flex-col gap-4 lg:gap-8 no-scrollbar bg-cover bg-center' style={{ backgroundImage: `url(${purpleStringsBlur})` }}>
       <div className="fixed w-full h-screen" style={{ opacity }}>
         <div className='fixed top-0 left-0 right-0 z-40'>
         <Header />
         </div>
         <MainImage />
       </div>
-      <div className="mt-[100vh] md:pt-0 z-10">
+      <div className="mt-[100vh] md:pt-0 z-10 flex flex-col gap-4 lg:gap-8">
         <NewMarkets />
         <OurServices />
         <Opportunity />

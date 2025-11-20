@@ -15,7 +15,7 @@ export default function CreationItem({creation} : CreationItemProps) {
                 <p className="text-xl font-semibold">{creation.subtitle}</p>
             </div>
             <div className="flex flex-col h-full">
-                <p className="text-lg md:text-xl font-semibold bg-blue-600/70 px-8 py-2">{creation.description}</p>
+                <p className="text-lg md:text-xl font-semibold bg-blue-600/70 px-10 py-2 text-center">{creation.description}</p>
                 <p className="bg-white/80 text-blue-600 text-lg md:text-2xl font-bold px-8 py-2 h-full">
                     {creation.text}
                 </p>
