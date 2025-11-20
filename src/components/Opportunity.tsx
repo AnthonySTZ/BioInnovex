@@ -5,7 +5,7 @@ import Timeline from "./Timeline";
 
 export default function Opportunity() {
     return (
-        <div className="mx-4 lg:mx-8 flex flex-col xl:flex-row justify-between gap-16">
+        <div className="mx-4 lg:mx-8 flex flex-col xl:flex-row justify-between gap-4 lg:gap-16">
             <div className="flex flex-col gap-8 md:gap-16">
                 <h1 className="text-4xl lg:text-6xl font-bold text-blue-600">FROM OPPORTUNITY TO REVENUE</h1>
                 <p className="text-blue-600 text-2xl md:text-3xl">

@@ -29,10 +29,10 @@ export default function MainImage() {
                 </div>
             </div>
             <div className="fixed inset-0 flex md:hidden items-center justify-center pointer-events-none z-30" style={{ opacity }}>
-                <h1 className="relative text-5xl font-bold text-center leading-tight text-blue-700">
+                <h1 className="relative text-5xl font-semibold text-center leading-tight text-blue-700">
                     YOU’VE BUILT VALUE<br/>
                     WE HELP YOU UNLOCK<br/>
-                    ITS FULL POTENTIAL
+                    ITS <span className="text-[rgb(60,199,111)] font-bold">FULL POTENTIAL</span>
                 </h1>
             </div>
         </div>
