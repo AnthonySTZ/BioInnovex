@@ -18,14 +18,14 @@ export default function NewMarketsText() {
                     stage of expansion.
                 </p>
             </div>
-            <div className="flex p-8 items-center justify-center">
+            {/* <div className="flex p-8 items-center justify-center">
                 <button 
                 className="transition-all duration-200 ease-in-out
                 hover:cursor-pointer hover:shadow-lg
                 shadow-gray-400 shadow-md py-4 px-16 text-white bg-[rgb(65,113,195)] border-2 border-blue-950/50 rounded-2xl">
                     Order your firsts snapshot<br/>opportunity mapping
                 </button>
-            </div>
+            </div> */}
         </div>
     )
 }
