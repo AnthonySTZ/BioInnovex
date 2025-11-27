@@ -1,21 +1,21 @@
 export const services = [
     {
-        title: "Investment Acceleration Program",
-        text: "BIOINNOVEX helps investment funds unlock the global potential of their biotech and medtech portfolio. We deliver scalability assessments, expansion strategies, and on-theground execution in high-demand regions — accelerating growth, reducing risk, and creating measurable value.",
+        title: "Global Investment Evaluation",
+        text: "We help investment funds unlock the global potential of their biotech and medtech portfolio through market due diligence, scalability assessments, and local access strategies — accelerating growth while reducing operational and regulatory risks.",
     },
     
     {
-        title: "Global Expansion Program",
-        text: "For biotech and pharma innovators ready to scale globally. We identify promising markets, secure access, and coordinate execution for sustainable international growth."
+        title: "Global Acceleration Program",
+        text: "We identify high-potential markets, secure strategic access, and coordinate local execution to help pharma and biotech companies achieve scalable, sustainable growth."
     },
     
     {
         title: "Rare Disease Operational Expansion Program",
-        text: "For rare disease companies expanding patient access worldwide. We manage registration, logistics, and partnerships to ensure compliant, efficient, and impactful launches."
+        text: "For companies focused on rare diseases aiming to broaden patient access globally, we oversee registration, coordinate logistics, and build strategic partnerships to deliver compliant, efficient, and high-impact product launches"
     },
 
     {
         title: "Mature & Generic Products Expansion Program",
-        text: "For companies with established or registered products. We open new markets, revitalize sales, and turn mature assets into fresh revenue streams."
+        text: "For companies with established or registered products we open new markets, revitalize sales, and turn mature assets into fresh revenue streams."
     },
 ]
