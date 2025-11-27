@@ -25,7 +25,7 @@ export default function NewMarketsColumn() {
                     <p className="text-white text-lg lg:text-2xl">Where you are structured to succeed.</p>
                 </div>
                 <div className="space-y-2">
-                    <p>YOU KEEP FULL CONTROL RESOURCES</p>
+                    <p className="text-nowrap">YOU KEEP FULL CONTROL RESOURCES</p>
                     <p className="text-white text-lg lg:text-2xl">Expand internationally without the need for significant internal investment.</p>
                 </div>
             </div>
