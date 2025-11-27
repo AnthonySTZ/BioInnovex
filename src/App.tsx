@@ -9,6 +9,7 @@ import OurServices from './components/OurServices'
 import ValueCreation from './components/ValueCreation'
 import purpleStringsBlur from "./assets/images/purple_strings_blur.png"
 import { useEffect, useState } from 'react'
+import TimeToMarket from './components/TimeToMarket'
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
         <NewMarkets />
         <OurServices />
         <Opportunity />
+        <TimeToMarket />
         <NetworkCoverage />
         <ValueCreation />
         <Contacts />

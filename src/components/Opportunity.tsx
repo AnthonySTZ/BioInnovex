@@ -15,27 +15,16 @@ export default function Opportunity() {
                 <div className="hidden lg:block">
                 <Timeline />
                 </div>
-                <h3 className="text-blue-600 text-2xl md:text-4xl font-semibold">
-                    AVERAGE TIME-TO-MARKET FOR<br/>
-                    RARE DISEASES TREATMENTS<br/>
-                    6–9 MONTHS
-                </h3>
-                <p className="text-blue-600 text-2xl md:text-3xl">
-                    We provide a turnkey solution from feasibility study to launch, with
-                    minimal internal resource allocation from our clients. Thanks to this
-                    flexible “modular” model, companies can stop at any stage and keep
-                    the deliverables, or entrust us with full end-to-end development.
-                </p>
             </div>
 
 
 
             {/* IMAGE */}
-            <div className="pt-60 bg-cover bg-center hidden xl:flex"
+            <div className="bg-cover bg-center hidden xl:flex"
             style={{backgroundImage: `url(${building})`}}>
 
                 <div className="flex flex-col w-full bg-white/70 p-8 px-16 gap-8 justify-center">
-                    <h2 className="text-6xl font-semibold text-blue-600 mb-4 text-cente whitespace-nowrap">OUR MODEL IS:</h2>
+                    <h2 className="text-6xl font-semibold text-blue-600 mb-4 text-center whitespace-nowrap">OUR MODEL IS:</h2>
                     {
                         models.map((model, index) => (
                             <ModelItem 
